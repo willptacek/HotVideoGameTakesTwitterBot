@@ -1,13 +1,11 @@
 import random
 import tweepy
 from apscheduler.schedulers.blocking import BlockingScheduler
-#start loop, generate a rando, check if it's been genned before with the array, if not, grab that line and
-#store it in a string, put the genned rando into an array of ints, end loop
 
-consumer_key = '9Eu3kdMGHtVDes6eM1M3Q9Tt8'
-consumer_secret = 'CQPomif23wmehGZCSw5C3PG5NfjUQRz3FqtavEM6xpL8BuwUpw'
-access_token = '1095060565075079168-Kld1F0GG2PpTH8CsxBkESm0heSPTbB'
-access_token_secret = '7TAsvnO39vYgMUDNFh7mG7TsLqctxBegJBCdGVgMKA2JB'
+consumer_key = 'remove'
+consumer_secret = 'remove'
+access_token = 'remove'
+access_token_secret = 'remove'
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
